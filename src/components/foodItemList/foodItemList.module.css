@@ -1,0 +1,10 @@
+.border{
+  border: 2px solid black;
+}
+
+.food-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
