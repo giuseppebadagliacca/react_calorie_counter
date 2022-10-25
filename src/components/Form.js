@@ -19,10 +19,10 @@ function Form(props) {
 
   const validateAndSubmitInput = (e) =>{
     e.preventDefault();
-    if(foodInput === '' || !isNaN(foodInput) || calorieInput === '' || !isNaN(calorieInput)){
+    if(foodInput === '' || !isNaN(foodInput) || calorieInput === '' || isNaN(calorieInput)){
       props.displayWarning();
     }else{
-      // add to foodlist
+      props.addFoodHandler(foodInput, calorieInput, timeInput);
     }
   }
 
