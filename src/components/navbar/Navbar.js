@@ -1,8 +1,9 @@
 import React from 'react'
+import classes from './Navbar.module.css';
 
 function Navbar() {
   return (
-    <nav className='navbar bg-primary'>
+    <nav className={classes.navbar}>
       <h3>Calorie Counter</h3>
       <ul>
         <li>

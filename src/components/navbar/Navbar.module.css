@@ -1,0 +1,27 @@
+.navbar{
+  background: #333;
+  color: #fff;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul li {
+  padding: 0 5px;
+  list-style: none;
+}
+
+.navbar ul li:hover{
+  color: rgba(255, 255, 255, 0.694);
+  text-decoration: underline;
+}

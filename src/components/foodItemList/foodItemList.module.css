@@ -1,10 +1,17 @@
 .border{
-  border: 2px solid black;
+  border: .5px solid black;
+  border-radius: 10px;
 }
 
-.food-item{
+.border div{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+
+.border div h1{
+  margin: 5px 0;
+  border-bottom: 1px solid #333;
+  line-height: 110%;
 }

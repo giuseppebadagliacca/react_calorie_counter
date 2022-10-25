@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
-import Navbar from './components/Navbar';
-import Form from './components/Form';
+import Navbar from './components/navbar/Navbar';
+import Form from './components/form/Form';
 import FoodItemsList from './components/foodItemList/FoodItemsList';
 
 function App() {
